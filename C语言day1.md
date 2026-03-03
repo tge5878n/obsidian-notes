@@ -165,11 +165,12 @@ int < float < double（注意数据丢失）
 给浮点数赋值的时候，如果赋值号右边是计算式，要把右边的运算数变成小数才行。
 ###  printf() 中对小数的输出
 
-float和double  
+float
 %f：以小数点格式输出。例如：3.141592  
 %e：以科学计数法格式输出。例如：3.141592e+00  
 %g：根据数值的大小，自动选择 %f 或 %e，以简洁的方式输出。
-
+double
+%lf，%f都行
 long double  
 %Lf：以小数点格式输出 long double 类型的值。  
 %Le：以科学计数法格式输出 long double 类型的值。  
